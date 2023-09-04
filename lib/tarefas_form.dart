@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:tarefas/tarefas_helper.dart';
 
 import 'tarefa_model.dart';
 import 'tarefa_state.dart';
@@ -17,6 +18,7 @@ class _TarefasFormState extends State<TarefasForm> {
 
   final _formKey = GlobalKey<FormState>(); // 1- Controla o estado do formulário
   final _tarefa = Tarefa(descricao: "", prazo: DateTime.now()); // 6-Objeto que irá receber os dados da nova tarefa
+  late TarefasHelper helper;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -67,13 +69,15 @@ class _TarefasFormState extends State<TarefasForm> {
               onSaved: (value) => _tarefa.prazo = DateFormat("dd/MM/yyyy").parse(value!), // 8 - armazenando a data no campo prazo da tarefa 
             ),
             const SizedBox(height: 10,),
-            ElevatedButton(onPressed: (){
+            ElevatedButton(onPressed: () async {
               
               //3- Executa a validação do formulário
               if (_formKey.currentState!.validate()) {
                 _formKey.currentState!.save(); // 4-Solicita ao formulário que salve os dados
                 print("Tarefa digitada: $_tarefa");  // 9- Aqui iremos enviar para o banco de dados
-           
+
+                await helper.salvar();
+                
            
            }
             
