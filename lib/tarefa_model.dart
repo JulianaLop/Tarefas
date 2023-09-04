@@ -1,3 +1,5 @@
+import 'package:sembast/src/type.dart';
+
 class Tarefa {
   String? id;
   String descricao;
@@ -10,6 +12,13 @@ class Tarefa {
  String toString() {
     
     return "id:$id-descricao: $descricao -prazo: $prazo -concluido: $concluido";
+  }
+
+  Map<String, Object?> getMap(){
+    return {"id": this.id,
+            "descricao": this.descricao,
+            "prazo": this.prazo,
+            "concluido": this.concluido};
   }
 
 }
