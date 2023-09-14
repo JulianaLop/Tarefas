@@ -1,0 +1,7 @@
+{"version":1,"sembast":1}
+{"key":1,"store":"tarefas","value":{"descricao":"Teste","prazo":"04/10/2023 08:48:31"}}
+{"key":2,"store":"tarefas","value":{"descricao":"Teste","prazo":"05/10/2023 07:24:10"}}
+{"key":1,"deleted":true,"store":"tarefas"}
+{"key":3,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:46:38"}}
+{"key":4,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:50:32"}}
+{"key":5,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:50:55"}}
