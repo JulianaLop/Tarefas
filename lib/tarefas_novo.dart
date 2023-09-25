@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tarefas/tarefas_form.dart';
-import 'tarefas_helper.dart';
+
 import 'tarefa_state.dart';
+import 'tarefas_helper.dart';
 
 class TarefasNovo extends StatelessWidget {
   final TarefaState state;
@@ -10,11 +11,11 @@ class TarefasNovo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
       appBar: AppBar(
-        title: Text("Nova Tarefa"),
-         ),
-         body:TarefasNovo(state: this.state, helper: helper,),
+        title: const Text("Nova Tarefa"),
+      ),
+      body: TarefasForm(state: this.state, helper: helper,),
     );
   }
 }

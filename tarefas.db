@@ -1,7 +1,13 @@
 {"version":1,"sembast":1}
-{"key":1,"store":"tarefas","value":{"descricao":"Teste","prazo":"04/10/2023 08:48:31"}}
 {"key":2,"store":"tarefas","value":{"descricao":"Teste","prazo":"05/10/2023 07:24:10"}}
-{"key":1,"deleted":true,"store":"tarefas"}
 {"key":3,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:46:38"}}
 {"key":4,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:50:32"}}
 {"key":5,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:50:55"}}
+{"key":6,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:44:55"}}
+{"key":7,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:51:27"}}
+{"key":8,"store":"tarefas","value":{"descricao":"Teste","prazo":"14/10/2023 12:53:26"}}
+{"key":9,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:55:17"}}
+{"key":10,"store":"tarefas","value":{"descricao":"Impementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":11,"store":"tarefas","value":{"descricao":"Último teste de inclusão","prazo":"23/09/2023 12:00:00"}}
+{"key":12,"store":"tarefas","value":{"descricao":"Tarefas de PAM Milena e Juliana","prazo":"19/09/2023 12:00:00"}}
+{"key":13,"store":"tarefas","value":{"descricao":"Ana Caroliny e Davi","prazo":"19/09/2023 12:00:00"}}

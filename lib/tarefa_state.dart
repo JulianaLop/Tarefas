@@ -1,7 +1,7 @@
 import 'tarefa_model.dart';
-class TarefaState {
-  
 
- List<Tarefa> listaTarefas = [];
+class TarefaState {
+  bool carregando =  false;
+  List<Tarefa>  listaTarefas = [];
 
 }
