@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 import 'tarefa_model.dart';
 
@@ -12,7 +13,7 @@ class TarefasList extends StatelessWidget {
       itemCount: tarefas.length,
       itemBuilder: (context, index) => 
       ListTile(
-         leading: Text("${tarefas[index].prazo}"),
+         subtitle: prazo(tarefas[index].prazo),
          title: Text(tarefas[index].descricao), 
          trailing: tarefas[index].concluido!=null?
            Icon(Icons.check):
@@ -20,5 +21,14 @@ class TarefasList extends StatelessWidget {
       )
       
       ,);
+  }
+  
+  prazo(DateTime prazo) {
+    var formatoData = DateFormat("dd/MM/y hh:mm");
+    var prazoStr = formatoData.format(prazo);
+    return SizedBox(
+      width: 50,
+      child: Text("Prazo: "+prazoStr, style: TextStyle(fontSize: 12)));
+
   }
 }
