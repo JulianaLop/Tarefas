@@ -13,6 +13,11 @@ class TarefasList extends StatelessWidget {
       itemCount: tarefas.length,
       itemBuilder: (context, index) => 
       ListTile(
+        onTap: () { 
+          
+          
+          Navigator.of(context).pushNamed("/edit",arguments: tarefas[index]);
+        },
          subtitle: prazo(tarefas[index].prazo),
          title: Text(tarefas[index].descricao), 
          trailing: tarefas[index].concluido!=null?
