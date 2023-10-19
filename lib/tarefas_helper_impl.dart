@@ -35,6 +35,11 @@ class TarefasHelperImpl extends TarefasHelper {
   Future<int> salvar(Tarefa tarefa) async {
     var store = intMapStoreFactory.store('tarefas');
     var db = (await SembastDatabase().getInstance());
-    return await store.add(db, tarefa.getMap());
+    //05/10
+    if (tarefa.id!=null) {
+       return await store.update(db, tarefa.getMap());
+    } else {
+       return await store.add(db, tarefa.getMap());
+    }
   }
 }
