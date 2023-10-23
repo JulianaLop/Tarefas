@@ -22,4 +22,8 @@ class TarefaState {
 
   }
 
+  salvar(Tarefa tarefa) async {
+    helper.salvar(tarefa);
+  }
+
 }

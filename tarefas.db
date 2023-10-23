@@ -1,18 +1,16 @@
 {"version":1,"sembast":1}
-{"key":2,"store":"tarefas","value":{"descricao":"Teste","prazo":"05/10/2023 07:24:10"}}
-{"key":3,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:46:38"}}
+{"key":2,"store":"tarefas","value":{"descricao":"Teste logo","prazo":"11/10/2023 12:00:00","id":"2"}}
+{"key":3,"store":"tarefas","value":{"descricao":"Tarefa de Teste agora","prazo":"10/10/2023 12:00:00","id":"3"}}
 {"key":4,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:50:32"}}
-{"key":5,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:50:55"}}
-{"key":6,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:44:55"}}
-{"key":7,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:51:27"}}
+{"key":5,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"11/10/2023 02:50:55","id":"5","concluido":"23/10/2023 02:50:41"}}
+{"key":6,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:44:55","id":"6","concluido":"23/10/2023 02:50:42"}}
+{"key":7,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:51:27","id":"7","concluido":"23/10/2023 02:50:46"}}
 {"key":8,"store":"tarefas","value":{"descricao":"Teste","prazo":"14/10/2023 12:53:26"}}
-{"key":9,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:55:17"}}
+{"key":9,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:55:17","id":"9","concluido":"23/10/2023 02:52:53"}}
 {"key":10,"store":"tarefas","value":{"descricao":"Impementar o método salvar","prazo":"15/09/2023 12:00:00"}}
 {"key":11,"store":"tarefas","value":{"descricao":"Último teste de inclusão","prazo":"23/09/2023 12:00:00"}}
 {"key":12,"store":"tarefas","value":{"descricao":"Tarefas de PAM Milena e Juliana","prazo":"19/09/2023 12:00:00"}}
-{"key":13,"store":"tarefas","value":{"descricao":"Ana Caroliny e Davi","prazo":"19/09/2023 12:00:00"}}
-{"key":2,"store":"tarefas","value":{"descricao":"Teste agora","prazo":"11/10/2023 12:00:00","id":"2"}}
-{"key":2,"store":"tarefas","value":{"descricao":"Teste agora","prazo":"11/10/2023 12:00:00","id":"2"}}
-{"key":2,"store":"tarefas","value":{"descricao":"Teste logo","prazo":"11/10/2023 12:00:00","id":"2"}}
-{"key":3,"store":"tarefas","value":{"descricao":"Tarefa de Teste agora","prazo":"10/10/2023 12:00:00","id":"3"}}
-{"key":14,"store":"tarefas","value":{"descricao":"teste","prazo":"20/10/2023 12:00:00"}}
+{"key":13,"store":"tarefas","value":{"descricao":"Ana Caroliny e Davi","prazo":"19/09/2023 12:00:00","id":"13","concluido":"23/10/2023 02:50:52"}}
+{"key":14,"store":"tarefas","value":{"descricao":"teste","prazo":"20/10/2023 12:00:00","id":"14","concluido":"23/10/2023 02:50:48"}}
+{"key":15,"store":"tarefas","value":{"descricao":"criando tarefa","prazo":"31/10/2023 12:00:00"}}
+{"key":10,"store":"tarefas","value":{"descricao":"Impementar o método salvar","prazo":"15/09/2023 12:00:00","id":"10","concluido":"23/10/2023 02:52:53"}}
