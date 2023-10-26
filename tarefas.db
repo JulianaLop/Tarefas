@@ -14,3 +14,7 @@
 {"key":14,"store":"tarefas","value":{"descricao":"teste","prazo":"20/10/2023 12:00:00","id":"14","concluido":"23/10/2023 02:50:48"}}
 {"key":15,"store":"tarefas","value":{"descricao":"criando tarefa","prazo":"31/10/2023 12:00:00"}}
 {"key":10,"store":"tarefas","value":{"descricao":"Impementar o método salvar","prazo":"15/09/2023 12:00:00","id":"10","concluido":"23/10/2023 02:52:53"}}
+{"key":6,"deleted":true,"store":"tarefas"}
+{"key":15,"deleted":true,"store":"tarefas"}
+{"key":5,"deleted":true,"store":"tarefas"}
+{"key":7,"deleted":true,"store":"tarefas"}
